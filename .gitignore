@@ -190,6 +190,8 @@ $RECYCLE.BIN/
 *.py[co]
 
 # Packages
+
+*/packages/*
 *.egg
 *.egg-info
 dist/
@@ -213,3 +215,4 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+

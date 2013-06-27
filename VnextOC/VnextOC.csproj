@@ -69,19 +69,19 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="views\HomePage.cshtml" />
-    <Content Include="content\css\index.css" />
-    <Content Include="content\css\master_design-1.css" />
-    <Content Include="content\css\site_global.css" />
-    <Content Include="content\images\new_blueofficeversion-layer 5.png" />
-    <Content Include="content\scripts\jquery-1.8.3.min.js" />
-    <Content Include="content\scripts\jquery.watch.js" />
-    <Content Include="content\scripts\museutils.js" />
-    <Content Include="content\scripts\pie.js" />
+    <None Include="Views\HomePage.cshtml" />
+    <Content Include="Content\css\index.css" />
+    <Content Include="Content\css\master_design-1.css" />
+    <Content Include="Content\css\site_global.css" />
+    <Content Include="Content\images\new_blueofficeversion-layer 5.png" />
+    <Content Include="Content\scripts\jquery-1.8.3.min.js" />
+    <Content Include="Content\scripts\jquery.watch.js" />
+    <Content Include="Content\scripts\museutils.js" />
+    <Content Include="Content\scripts\pie.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="HomePage.cs" />
+    <Compile Include="Modules\HomePageModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

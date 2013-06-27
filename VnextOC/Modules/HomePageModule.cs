@@ -6,9 +6,9 @@ using System.Web;
 
 namespace VnextOC
 {
-    public class HomePage : Nancy.NancyModule
+    public class HomePageModule : Nancy.NancyModule
     {
-        public HomePage()
+        public HomePageModule()
         {
             Get["/"] =  _ =>  View["HomePage"];
             

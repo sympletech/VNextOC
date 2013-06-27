@@ -69,12 +69,29 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Views\HomePage.cshtml" />
+    <Content Include="Content\scripts\jquery-1.9.1.min.map" />
+    <None Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="Content\bootstrap-responsive.css" />
+    <Content Include="Content\bootstrap-responsive.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\images\glyphicons-halflings-white.png" />
+    <Content Include="Content\images\glyphicons-halflings.png" />
+    <Content Include="Content\images\logo.jpg" />
+    <Content Include="Content\scripts\bootstrap.js" />
+    <Content Include="Content\scripts\bootstrap.min.js" />
+    <None Include="Content\scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="Content\scripts\jquery-1.9.1.js" />
+    <Content Include="Content\scripts\jquery-1.9.1.min.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\jquery-1.9.1.js" />
+    <Content Include="Scripts\jquery-1.9.1.min.js" />
+    <Content Include="Scripts\jquery-1.9.1.min.map" />
     <Content Include="Content\css\index.css" />
     <Content Include="Content\css\master_design-1.css" />
     <Content Include="Content\css\site_global.css" />
     <Content Include="Content\images\new_blueofficeversion-layer 5.png" />
-    <Content Include="Content\scripts\jquery-1.8.3.min.js" />
     <Content Include="Content\scripts\jquery.watch.js" />
     <Content Include="Content\scripts\museutils.js" />
     <Content Include="Content\scripts\pie.js" />
@@ -86,6 +103,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <Content Include="Views\HomePage.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

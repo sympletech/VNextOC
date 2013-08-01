@@ -38,6 +38,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="ApprovalUtilities">
+      <HintPath>packages\ApprovalUtilities.3.0.01\lib\net35\ApprovalUtilities.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Nancy">
       <HintPath>packages\Nancy.0.17.1\lib\net40\Nancy.dll</HintPath>
@@ -47,6 +50,9 @@
     </Reference>
     <Reference Include="Nancy.ViewEngines.Razor">
       <HintPath>packages\Nancy.Viewengines.Razor.0.17.1\lib\net40\Nancy.ViewEngines.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>packages\Newtonsoft.Json.5.0.6\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -95,9 +101,13 @@
     <Content Include="Content\scripts\jquery.watch.js" />
     <Content Include="Content\scripts\museutils.js" />
     <Content Include="Content\scripts\pie.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MeetupApi\Event.cs" />
+    <Compile Include="MeetupApi\Meetup.cs" />
     <Compile Include="Modules\HomePageModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

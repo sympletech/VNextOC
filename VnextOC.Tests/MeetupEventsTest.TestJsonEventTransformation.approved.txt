@@ -1,0 +1,119 @@
+﻿event[0] = Event
+{
+	Title: Up On This - Mob Programming With the VNext MOB
+	Speaker: Get Mobbed
+	Time: 7/31/2013 6:30:00 PM
+}
+
+event[1] = Event
+{
+	Title:  My Experience with the Booted, The Borg and Default Culture
+	Speaker: Jon Jorgensen 
+	Time: 8/14/2013 6:00:00 PM
+}
+
+event[2] = Event
+{
+	Title: Up On This
+	Speaker: Get Mobbed
+	Time: 8/28/2013 6:30:00 PM
+}
+
+event[3] = Event
+{
+	Title:  Architecting Applications for Multiple User Interfaces
+	Speaker: Paul D. Sheriff 
+	Time: 9/11/2013 6:00:00 PM
+}
+
+event[4] = Event
+{
+	Title: Up On This - Mob Programming With the VNext MOB
+	Speaker: Get Mobbed
+	Time: 9/25/2013 6:30:00 PM
+}
+
+event[5] = Event
+{
+	Title: 
+	Speaker: Oscar Azmitia from Xamarin will be presenting the capabilities of Xamarin
+	Time: 10/9/2013 6:00:00 PM
+}
+
+event[6] = Event
+{
+	Title: Up On This - Mob Programming With the VNext MOB
+	Speaker: Get Mobbed
+	Time: 10/30/2013 6:30:00 PM
+}
+
+event[7] = Event
+{
+	Title:  Intro to the Single Page App
+	Speaker: Anand Raja 
+	Time: 11/13/2013 6:30:00 PM
+}
+
+event[8] = Event
+{
+	Title: Up On This - Mob Programming With the VNext MOB
+	Speaker: Get Mobbed
+	Time: 11/27/2013 6:30:00 PM
+}
+
+event[9] = Event
+{
+	Title: Up On This - Mob Programming With the VNext MOB
+	Speaker: Get Mobbed
+	Time: 12/25/2013 6:30:00 PM
+}
+
+event[10] = Event
+{
+	Title: Up On This - Mob Programming With the VNext MOB
+	Speaker: Get Mobbed
+	Time: 1/29/2014 6:30:00 PM
+}
+
+event[11] = Event
+{
+	Title: Up On This - Mob Programming With the VNext MOB
+	Speaker: Get Mobbed
+	Time: 2/26/2014 6:30:00 PM
+}
+
+event[12] = Event
+{
+	Title: Up On This - Mob Programming With the VNext MOB
+	Speaker: Get Mobbed
+	Time: 3/26/2014 6:30:00 PM
+}
+
+event[13] = Event
+{
+	Title: Up On This - Mob Programming With the VNext MOB
+	Speaker: Get Mobbed
+	Time: 4/30/2014 6:30:00 PM
+}
+
+event[14] = Event
+{
+	Title: Up On This - Mob Programming With the VNext MOB
+	Speaker: Get Mobbed
+	Time: 5/28/2014 6:30:00 PM
+}
+
+event[15] = Event
+{
+	Title: Up On This - Mob Programming With the VNext MOB
+	Speaker: Get Mobbed
+	Time: 6/25/2014 6:30:00 PM
+}
+
+event[16] = Event
+{
+	Title: Up On This - Mob Programming With the VNext MOB
+	Speaker: Get Mobbed
+	Time: 7/30/2014 6:30:00 PM
+}
+

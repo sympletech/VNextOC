@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-
-
-namespace VnextOC
+﻿namespace VnextOC.Modules
 {
     public class HomePageModule : Nancy.NancyModule
     {

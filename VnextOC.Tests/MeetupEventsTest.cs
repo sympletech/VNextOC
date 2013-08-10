@@ -1,9 +1,7 @@
-﻿using System.IO;
-using ApprovalTests.Core;
-using ApprovalTests.Reporters;
+﻿using ApprovalTests.Reporters;
 using ApprovalUtilities.Utilities;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Newtonsoft.Json;
+using System.IO;
 using VnextOC.MeetupApi;
 using Approvals = ApprovalTests.Approvals;
 

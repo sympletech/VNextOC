@@ -12,9 +12,6 @@
     <summary>Unofficial build of System.Web.Razor (purely for licensing reasons). Unless you're writing a razor host, use the Microsoft.AspNet.Razor packge :-)</summary>
     <copyright>Microsoft Open Technologies</copyright>
     <language>en-US</language>
-    <tags>Razor, Unofficial</tags>
-    <references>
-      <reference file="System.Web.Razor.Unofficial.dll" />
-    </references>
+    <tags>Razor Unofficial</tags>
   </metadata>
 </package>

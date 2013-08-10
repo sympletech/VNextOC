@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VnextOC", "VnextOC.csproj", "{CD015BBF-C4EB-4E31-986E-E3D312AE354E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VnextOC", "VnextOC\VnextOC.csproj", "{CD015BBF-C4EB-4E31-986E-E3D312AE354E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VnextOC.Tests", "..\VnextOC.Tests\VnextOC.Tests.csproj", "{E308EA7B-369C-4F50-A3D5-67C3EC1ECEA0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VnextOC.Tests", "VnextOC.Tests\VnextOC.Tests.csproj", "{E308EA7B-369C-4F50-A3D5-67C3EC1ECEA0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,7 +1,7 @@
 ﻿using ApprovalTests.Reporters;
 using ApprovalUtilities.Utilities;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.IO;
+using NUnit.Framework;
 using VnextOC.MeetupApi;
 using Approvals = ApprovalTests.Approvals;
 
@@ -9,11 +9,11 @@ using Approvals = ApprovalTests.Approvals;
 
 namespace VnextOC.Tests
 {
-    [TestClass]
+    [TestFixture]
     [UseReporter(typeof(DiffReporter))]
     public class MeetupEventsTest
     {
-        [TestMethod]
+        [Test]
         public void TestJsonEventTransformation()
         {
             var json = File.ReadAllText(PathUtilities.GetAdjacentFile("SampleEventData.json"));
@@ -23,7 +23,7 @@ namespace VnextOC.Tests
             Approvals.VerifyAll(events, "event");
         }
 
-        [TestMethod]
+        [Test]
         public void TestParseNamePerson()
         {
             var name = "Paul D. Sheriff - Architecting Applications for Multiple-User-Interfaces";

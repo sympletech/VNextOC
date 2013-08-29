@@ -35,7 +35,7 @@ namespace VnextOC.Tests
             Approvals.Verify(e);
         }
 
-        [Test]
+        //[Test]
         public void LockWeb()
         {
             AspApprovals.VerifyUrl("http://localhost:51795//");

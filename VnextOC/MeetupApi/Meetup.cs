@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using ApprovalUtilities.Utilities;
 
 namespace VnextOC.MeetupApi
 {
@@ -13,7 +14,9 @@ namespace VnextOC.MeetupApi
             return events.Select(e => new Event()
                                           .ParseDate((long) e.time, (long) e.utc_offset)
                                           .ParseName((string) e.name)
-                                           .ParseDescription((string) e.description));
+                                           .ParseDescription((string) e.description)
+                                           .ParseUrl((string)e.event_url)
+                                           .ParseAddress((object) e.venue));
 
         }
 
@@ -40,5 +43,41 @@ namespace VnextOC.MeetupApi
             return e;
         }
 
+        public static Event ParseUrl(this Event e, string url)
+        {
+            e.EventUrl = url;
+            return e;
+        }
+
+        public static Event ParseAddress(this Event e, dynamic venue)
+        {
+            e.Address = new Address {
+                Name = venue.name,
+                Street = venue.address_1,
+                City = venue.city,
+                State = venue.state,
+                ZipCode = venue.zip,
+            };
+            return e;
+        }
+
+    }
+
+    public class Address
+    {
+        public override string ToString()
+        {
+            return this.WritePropertiesToString();
+        }
+
+        public string Street { get; set; }
+
+        public string Name { get; set; }
+
+        public string City { get; set; }
+
+        public string State { get; set; }
+
+        public string ZipCode { get; set; }
     }
 }

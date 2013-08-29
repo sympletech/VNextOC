@@ -4,4 +4,6 @@
 	Speaker: Paul D. Sheriff 
 	Time: 1/1/0001 12:00:00 AM
 	Description: NULL
+	EventUrl: NULL
+	Address: NULL
 }

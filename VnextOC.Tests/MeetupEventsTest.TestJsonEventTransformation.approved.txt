@@ -12,6 +12,16 @@
  <br />
 
 </p>
+	EventUrl: http://www.meetup.com/vNext-OrangeCounty/events/126914252/
+	Address: Address
+{
+	Street: 100 Bayview Circle #3400
+	Name: TEKsystems
+	City: Newport Beach
+	State: CA
+	ZipCode: 92660
+}
+
 }
 
 event[1] = Event
@@ -24,6 +34,16 @@ event[1] = Event
 
 </span></p>
 <p>Jon Jorgensen is a Program Manager, rebooting the team culture of software developers.  Born and raised in Tustin, California, Mr. Jorgensen has worked over 17 years in Japan for both US and German foreign capital firms as well as for publicly and privately held Japanese firms in IT, education and manufacturing.  He holds an alphabet soup of certifications:  Certified Professional Facilitator (CPF), Project Management Professional (PMP), Certified Scrum Master (CSM), Six Sigma Black Belt (SSBB), and is certified in Lean, Kaizen and Total Quality Management.</p>
+	EventUrl: http://www.meetup.com/vNext-OrangeCounty/events/126419312/
+	Address: Address
+{
+	Street: 100 Bayview Circle #3400
+	Name: TEKsystems
+	City: Newport Beach
+	State: CA
+	ZipCode: 92660
+}
+
 }
 
 event[2] = Event
@@ -37,6 +57,16 @@ event[2] = Event
 <p><span>The meeting will start at 6:30PM and go till we break – most likely around 9:00PM.</span></p>
  <br />
  <br />
+	EventUrl: http://www.meetup.com/vNext-OrangeCounty/events/129018592/
+	Address: Address
+{
+	Street: 100 Bayview Circle #3400
+	Name: TEKsystems
+	City: Newport Beach
+	State: CA
+	ZipCode: 92660
+}
+
 }
 
 event[3] = Event
@@ -85,6 +115,16 @@ Windows Phone and SQL Server. Paul can be reached via email at <br />
 PSheriff@pdsa.com. Check out Paul's new code generator 'Haystack' at <br />
 
 <a href="http://www.CodeHaystack.com">www.CodeHaystack.com</a>.</p>
+	EventUrl: http://www.meetup.com/vNext-OrangeCounty/events/124139172/
+	Address: Address
+{
+	Street: 100 Bayview Circle #3400
+	Name: TEKsystems
+	City: Newport Beach
+	State: CA
+	ZipCode: 92660
+}
+
 }
 
 event[4] = Event
@@ -101,6 +141,16 @@ event[4] = Event
  <br />
 
 </p>
+	EventUrl: http://www.meetup.com/vNext-OrangeCounty/events/qtqbcgyrmbhc/
+	Address: Address
+{
+	Street: 100 Bayview Circle #3400
+	Name: TEKsystems
+	City: Newport Beach
+	State: CA
+	ZipCode: 92660
+}
+
 }
 
 event[5] = Event
@@ -109,6 +159,16 @@ event[5] = Event
 	Speaker: Oscar Azmitia from Xamarin will be presenting the capabilities of Xamarin
 	Time: 10/9/2013 6:00:00 PM
 	Description: <p>More Details To Come!</p>
+	EventUrl: http://www.meetup.com/vNext-OrangeCounty/events/126610482/
+	Address: Address
+{
+	Street: 100 Bayview Circle #3400
+	Name: TEKsystems
+	City: Newport Beach
+	State: CA
+	ZipCode: 92660
+}
+
 }
 
 event[6] = Event
@@ -125,6 +185,16 @@ event[6] = Event
  <br />
 
 </p>
+	EventUrl: http://www.meetup.com/vNext-OrangeCounty/events/qtqbcgyrnbnc/
+	Address: Address
+{
+	Street: 100 Bayview Circle #3400
+	Name: TEKsystems
+	City: Newport Beach
+	State: CA
+	ZipCode: 92660
+}
+
 }
 
 event[7] = Event
@@ -133,6 +203,16 @@ event[7] = Event
 	Speaker: Anand Raja 
 	Time: 11/13/2013 6:30:00 PM
 	Description: <p>More Details to come!</p>
+	EventUrl: http://www.meetup.com/vNext-OrangeCounty/events/129278042/
+	Address: Address
+{
+	Street: 100 Bayview Circle #3400
+	Name: TEKsystems
+	City: Newport Beach
+	State: CA
+	ZipCode: 92660
+}
+
 }
 
 event[8] = Event
@@ -149,6 +229,16 @@ event[8] = Event
  <br />
 
 </p>
+	EventUrl: http://www.meetup.com/vNext-OrangeCounty/events/qtqbcgyrpbkc/
+	Address: Address
+{
+	Street: 100 Bayview Circle #3400
+	Name: TEKsystems
+	City: Newport Beach
+	State: CA
+	ZipCode: 92660
+}
+
 }
 
 event[9] = Event
@@ -165,6 +255,16 @@ event[9] = Event
  <br />
 
 </p>
+	EventUrl: http://www.meetup.com/vNext-OrangeCounty/events/qtqbcgyrqbhc/
+	Address: Address
+{
+	Street: 100 Bayview Circle #3400
+	Name: TEKsystems
+	City: Newport Beach
+	State: CA
+	ZipCode: 92660
+}
+
 }
 
 event[10] = Event
@@ -181,6 +281,16 @@ event[10] = Event
  <br />
 
 </p>
+	EventUrl: http://www.meetup.com/vNext-OrangeCounty/events/qtqbcgyscbmc/
+	Address: Address
+{
+	Street: 100 Bayview Circle #3400
+	Name: TEKsystems
+	City: Newport Beach
+	State: CA
+	ZipCode: 92660
+}
+
 }
 
 event[11] = Event
@@ -197,6 +307,16 @@ event[11] = Event
  <br />
 
 </p>
+	EventUrl: http://www.meetup.com/vNext-OrangeCounty/events/qtqbcgysdbjc/
+	Address: Address
+{
+	Street: 100 Bayview Circle #3400
+	Name: TEKsystems
+	City: Newport Beach
+	State: CA
+	ZipCode: 92660
+}
+
 }
 
 event[12] = Event
@@ -213,6 +333,16 @@ event[12] = Event
  <br />
 
 </p>
+	EventUrl: http://www.meetup.com/vNext-OrangeCounty/events/qtqbcgysfbjc/
+	Address: Address
+{
+	Street: 100 Bayview Circle #3400
+	Name: TEKsystems
+	City: Newport Beach
+	State: CA
+	ZipCode: 92660
+}
+
 }
 
 event[13] = Event
@@ -229,6 +359,16 @@ event[13] = Event
  <br />
 
 </p>
+	EventUrl: http://www.meetup.com/vNext-OrangeCounty/events/qtqbcgysgbnc/
+	Address: Address
+{
+	Street: 100 Bayview Circle #3400
+	Name: TEKsystems
+	City: Newport Beach
+	State: CA
+	ZipCode: 92660
+}
+
 }
 
 event[14] = Event
@@ -245,6 +385,16 @@ event[14] = Event
  <br />
 
 </p>
+	EventUrl: http://www.meetup.com/vNext-OrangeCounty/events/qtqbcgyshblc/
+	Address: Address
+{
+	Street: 100 Bayview Circle #3400
+	Name: TEKsystems
+	City: Newport Beach
+	State: CA
+	ZipCode: 92660
+}
+
 }
 
 event[15] = Event
@@ -261,6 +411,16 @@ event[15] = Event
  <br />
 
 </p>
+	EventUrl: http://www.meetup.com/vNext-OrangeCounty/events/qtqbcgysjbhc/
+	Address: Address
+{
+	Street: 100 Bayview Circle #3400
+	Name: TEKsystems
+	City: Newport Beach
+	State: CA
+	ZipCode: 92660
+}
+
 }
 
 event[16] = Event
@@ -277,5 +437,15 @@ event[16] = Event
  <br />
 
 </p>
+	EventUrl: http://www.meetup.com/vNext-OrangeCounty/events/qtqbcgyskbnc/
+	Address: Address
+{
+	Street: 100 Bayview Circle #3400
+	Name: TEKsystems
+	City: Newport Beach
+	State: CA
+	ZipCode: 92660
+}
+
 }
 

@@ -1,4 +1,5 @@
-﻿using ApprovalTests.Reporters;
+﻿using ApprovalTests.Asp;
+using ApprovalTests.Reporters;
 using ApprovalUtilities.Utilities;
 using System.IO;
 using NUnit.Framework;
@@ -34,6 +35,11 @@ namespace VnextOC.Tests
             Approvals.Verify(e);
         }
 
+        [Test]
+        public void LockWeb()
+        {
+            AspApprovals.VerifyUrl("http://localhost:51795//");
+        }
 
     }
 }

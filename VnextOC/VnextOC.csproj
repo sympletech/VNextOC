@@ -97,6 +97,7 @@
     <None Include="Content\scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Content\scripts\jquery-1.9.1.js" />
     <Content Include="Content\scripts\jquery-1.9.1.min.js" />
+    <Content Include="Modules\data.txt" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />

@@ -17,6 +17,7 @@ namespace VnextOC.Tests
         public void TestJsonEventTransformation()
         {
             var json = File.ReadAllText(PathUtilities.GetAdjacentFile("SampleEventData.json"));
+               
 
             var events = Meetup.ParseEvent(json);
             
@@ -32,5 +33,7 @@ namespace VnextOC.Tests
 
             Approvals.Verify(e);
         }
+
+
     }
 }

@@ -16,5 +16,7 @@ namespace VnextOC.MeetupApi
         public string Speaker { get; set; }
 
         public DateTime Time { get; set; }
+
+        public string Description  { get; set; }
     }
 }

@@ -3,6 +3,15 @@
 	Title: Up On This - Mob Programming With the VNext MOB
 	Speaker: Get Mobbed
 	Time: 7/31/2013 6:30:00 PM
+	Description: <p><span>Learning is a process that involves many steps. In our normal monthly meetings we sit and we speak and we listen as we learn about new technologies many of us will never find time in our normal schedule to really dive into.</span></p>
+<p><span>In our new monthly meeting Get Mobbed-Up On This we will be performing h<strong>ands on programming</strong>, Mob style. That doesn’t mean if you don’t code it right someone is going to take you out back and break your legs. It means everyone who shows up is going to <strong>actively</strong> participate in the coding.</span></p>
+<p><span>Bring your own laptop if you have one, some ideas, and your experience. Be ready to share, listen, and learn. Again <strong>everyone who comes will be expected to participate</strong>. All Skill levels are encouraged to come.</span></p>
+<p><span>The meeting will start at 6:30PM and go till we break – most likely around 9:00PM.</span></p>
+<p> <br />
+
+ <br />
+
+</p>
 }
 
 event[1] = Event
@@ -10,6 +19,11 @@ event[1] = Event
 	Title:  My Experience with the Booted, The Borg and Default Culture
 	Speaker: Jon Jorgensen 
 	Time: 8/14/2013 6:00:00 PM
+	Description: <p><span style="color : #1f497d">Developing software in large, conservative corporations in the US can be a sub-optimal experience when the humanity of team members is denied in the name of “professionalism” or the prevailing corporate culture.  Counter-culture movements are often misperceived or mislabeled as non-conducive to business activity.  In such a setting, known as the “Default Culture” The Booted have been seeking ways to spread virally and overwrite the default culture towards making a better world with great software. This presentation will detail the infiltration of both the Default Culture and The Booted by one individual, with accompanying biases, personality and emotions. The subjective treatment of the topic by the presenter or attendees may be disturbing to more rigid adherents of default culture.  We offer our semi-sincere apologies in advance and encourage proactive self-selection.</span></p>
+<p><span style="color : #1f497d"> <br />
+
+</span></p>
+<p>Jon Jorgensen is a Program Manager, rebooting the team culture of software developers.  Born and raised in Tustin, California, Mr. Jorgensen has worked over 17 years in Japan for both US and German foreign capital firms as well as for publicly and privately held Japanese firms in IT, education and manufacturing.  He holds an alphabet soup of certifications:  Certified Professional Facilitator (CPF), Project Management Professional (PMP), Certified Scrum Master (CSM), Six Sigma Black Belt (SSBB), and is certified in Lean, Kaizen and Total Quality Management.</p>
 }
 
 event[2] = Event
@@ -17,6 +31,12 @@ event[2] = Event
 	Title: Up On This
 	Speaker: Get Mobbed
 	Time: 8/28/2013 6:30:00 PM
+	Description: <p><span>Learning is a process that involves many steps. In our normal monthly meetings we sit and we speak and we listen as we learn about new technologies many of us will never find time in our normal schedule to really dive into.</span></p>
+<p><span>In our new monthly meeting Get Mobbed-Up On This we will be performing h<strong>ands on programming</strong>, Mob style. That doesn’t mean if you don’t code it right someone is going to take you out back and break your legs. It means everyone who shows up is going to <strong>actively</strong> participate in the coding.</span></p>
+<p><span>Bring your own laptop if you have one, some ideas, and your experience. Be ready to share, listen, and learn. Again <strong>everyone who comes will be expected to participate</strong>. All Skill levels are encouraged to come.</span></p>
+<p><span>The meeting will start at 6:30PM and go till we break – most likely around 9:00PM.</span></p>
+ <br />
+ <br />
 }
 
 event[3] = Event
@@ -24,6 +44,47 @@ event[3] = Event
 	Title:  Architecting Applications for Multiple User Interfaces
 	Speaker: Paul D. Sheriff 
 	Time: 9/11/2013 6:00:00 PM
+	Description: <p><strong>Talk Info :</strong></p>
+<p>The techniques for building applications have changed dramatically in the last <br />
+
+few years. Gone are the days of single-tier, battle-ship gray, boring user <br />
+
+interfaces. Users demand that your applications (or portions) run on more than <br />
+
+one device. This session will take you on a tour of how you should be architecting your application by breaking it up into services. You will learn how <br />
+
+to create your business rules and data layer as a service. This seminar will <br />
+
+assume you have some knowledge of .NET but have been developing <br />
+
+applications the old way and you are now looking to see how to use WCF and <br />
+
+the Model-View-View-Model (MVVM) design pattern to create applications that <br />
+
+can be run one more than one user interface platform. This session has many <br />
+
+demonstrations and you will be led step-by-step through the code. You will walk <br />
+
+away with a sample set of services that run on Silverlight, Windows Forms, <br />
+
+WPF, Windows Phone and ASP.NET.</p>
+<p> </p>
+<p><strong>About The Speaker</strong></p>
+<p>Paul D. Sheriff is the President of PDSA, Inc. (www.pdsa.com), a Microsoft <br />
+
+Partner in Southern California. Paul acts as the Microsoft Regional Director for <br />
+
+Southern California assisting the local Microsoft offices with several of their <br />
+
+events each year and being an evangelist for them. Paul has authored literally <br />
+
+hundreds of books, webcasts, videos and articles on .NET, WPF, Silverlight, <br />
+
+Windows Phone and SQL Server. Paul can be reached via email at <br />
+
+PSheriff@pdsa.com. Check out Paul's new code generator 'Haystack' at <br />
+
+<a href="http://www.CodeHaystack.com">www.CodeHaystack.com</a>.</p>
 }
 
 event[4] = Event
@@ -31,6 +92,15 @@ event[4] = Event
 	Title: Up On This - Mob Programming With the VNext MOB
 	Speaker: Get Mobbed
 	Time: 9/25/2013 6:30:00 PM
+	Description: <p><span>Learning is a process that involves many steps. In our normal monthly meetings we sit and we speak and we listen as we learn about new technologies many of us will never find time in our normal schedule to really dive into.</span></p>
+<p><span>In our new monthly meeting Get Mobbed-Up On This we will be performing h<strong>ands on programming</strong>, Mob style. That doesn’t mean if you don’t code it right someone is going to take you out back and break your legs. It means everyone who shows up is going to <strong>actively</strong> participate in the coding.</span></p>
+<p><span>Bring your own laptop if you have one, some ideas, and your experience. Be ready to share, listen, and learn. Again <strong>everyone who comes will be expected to participate</strong>. All Skill levels are encouraged to come.</span></p>
+<p><span>The meeting will start at 6:30PM and go till we break – most likely around 9:00PM.</span></p>
+<p> <br />
+
+ <br />
+
+</p>
 }
 
 event[5] = Event
@@ -38,6 +108,7 @@ event[5] = Event
 	Title: 
 	Speaker: Oscar Azmitia from Xamarin will be presenting the capabilities of Xamarin
 	Time: 10/9/2013 6:00:00 PM
+	Description: <p>More Details To Come!</p>
 }
 
 event[6] = Event
@@ -45,6 +116,15 @@ event[6] = Event
 	Title: Up On This - Mob Programming With the VNext MOB
 	Speaker: Get Mobbed
 	Time: 10/30/2013 6:30:00 PM
+	Description: <p><span>Learning is a process that involves many steps. In our normal monthly meetings we sit and we speak and we listen as we learn about new technologies many of us will never find time in our normal schedule to really dive into.</span></p>
+<p><span>In our new monthly meeting Get Mobbed-Up On This we will be performing h<strong>ands on programming</strong>, Mob style. That doesn’t mean if you don’t code it right someone is going to take you out back and break your legs. It means everyone who shows up is going to <strong>actively</strong> participate in the coding.</span></p>
+<p><span>Bring your own laptop if you have one, some ideas, and your experience. Be ready to share, listen, and learn. Again <strong>everyone who comes will be expected to participate</strong>. All Skill levels are encouraged to come.</span></p>
+<p><span>The meeting will start at 6:30PM and go till we break – most likely around 9:00PM.</span></p>
+<p> <br />
+
+ <br />
+
+</p>
 }
 
 event[7] = Event
@@ -52,6 +132,7 @@ event[7] = Event
 	Title:  Intro to the Single Page App
 	Speaker: Anand Raja 
 	Time: 11/13/2013 6:30:00 PM
+	Description: <p>More Details to come!</p>
 }
 
 event[8] = Event
@@ -59,6 +140,15 @@ event[8] = Event
 	Title: Up On This - Mob Programming With the VNext MOB
 	Speaker: Get Mobbed
 	Time: 11/27/2013 6:30:00 PM
+	Description: <p><span>Learning is a process that involves many steps. In our normal monthly meetings we sit and we speak and we listen as we learn about new technologies many of us will never find time in our normal schedule to really dive into.</span></p>
+<p><span>In our new monthly meeting Get Mobbed-Up On This we will be performing h<strong>ands on programming</strong>, Mob style. That doesn’t mean if you don’t code it right someone is going to take you out back and break your legs. It means everyone who shows up is going to <strong>actively</strong> participate in the coding.</span></p>
+<p><span>Bring your own laptop if you have one, some ideas, and your experience. Be ready to share, listen, and learn. Again <strong>everyone who comes will be expected to participate</strong>. All Skill levels are encouraged to come.</span></p>
+<p><span>The meeting will start at 6:30PM and go till we break – most likely around 9:00PM.</span></p>
+<p> <br />
+
+ <br />
+
+</p>
 }
 
 event[9] = Event
@@ -66,6 +156,15 @@ event[9] = Event
 	Title: Up On This - Mob Programming With the VNext MOB
 	Speaker: Get Mobbed
 	Time: 12/25/2013 6:30:00 PM
+	Description: <p><span>Learning is a process that involves many steps. In our normal monthly meetings we sit and we speak and we listen as we learn about new technologies many of us will never find time in our normal schedule to really dive into.</span></p>
+<p><span>In our new monthly meeting Get Mobbed-Up On This we will be performing h<strong>ands on programming</strong>, Mob style. That doesn’t mean if you don’t code it right someone is going to take you out back and break your legs. It means everyone who shows up is going to <strong>actively</strong> participate in the coding.</span></p>
+<p><span>Bring your own laptop if you have one, some ideas, and your experience. Be ready to share, listen, and learn. Again <strong>everyone who comes will be expected to participate</strong>. All Skill levels are encouraged to come.</span></p>
+<p><span>The meeting will start at 6:30PM and go till we break – most likely around 9:00PM.</span></p>
+<p> <br />
+
+ <br />
+
+</p>
 }
 
 event[10] = Event
@@ -73,6 +172,15 @@ event[10] = Event
 	Title: Up On This - Mob Programming With the VNext MOB
 	Speaker: Get Mobbed
 	Time: 1/29/2014 6:30:00 PM
+	Description: <p><span>Learning is a process that involves many steps. In our normal monthly meetings we sit and we speak and we listen as we learn about new technologies many of us will never find time in our normal schedule to really dive into.</span></p>
+<p><span>In our new monthly meeting Get Mobbed-Up On This we will be performing h<strong>ands on programming</strong>, Mob style. That doesn’t mean if you don’t code it right someone is going to take you out back and break your legs. It means everyone who shows up is going to <strong>actively</strong> participate in the coding.</span></p>
+<p><span>Bring your own laptop if you have one, some ideas, and your experience. Be ready to share, listen, and learn. Again <strong>everyone who comes will be expected to participate</strong>. All Skill levels are encouraged to come.</span></p>
+<p><span>The meeting will start at 6:30PM and go till we break – most likely around 9:00PM.</span></p>
+<p> <br />
+
+ <br />
+
+</p>
 }
 
 event[11] = Event
@@ -80,6 +188,15 @@ event[11] = Event
 	Title: Up On This - Mob Programming With the VNext MOB
 	Speaker: Get Mobbed
 	Time: 2/26/2014 6:30:00 PM
+	Description: <p><span>Learning is a process that involves many steps. In our normal monthly meetings we sit and we speak and we listen as we learn about new technologies many of us will never find time in our normal schedule to really dive into.</span></p>
+<p><span>In our new monthly meeting Get Mobbed-Up On This we will be performing h<strong>ands on programming</strong>, Mob style. That doesn’t mean if you don’t code it right someone is going to take you out back and break your legs. It means everyone who shows up is going to <strong>actively</strong> participate in the coding.</span></p>
+<p><span>Bring your own laptop if you have one, some ideas, and your experience. Be ready to share, listen, and learn. Again <strong>everyone who comes will be expected to participate</strong>. All Skill levels are encouraged to come.</span></p>
+<p><span>The meeting will start at 6:30PM and go till we break – most likely around 9:00PM.</span></p>
+<p> <br />
+
+ <br />
+
+</p>
 }
 
 event[12] = Event
@@ -87,6 +204,15 @@ event[12] = Event
 	Title: Up On This - Mob Programming With the VNext MOB
 	Speaker: Get Mobbed
 	Time: 3/26/2014 6:30:00 PM
+	Description: <p><span>Learning is a process that involves many steps. In our normal monthly meetings we sit and we speak and we listen as we learn about new technologies many of us will never find time in our normal schedule to really dive into.</span></p>
+<p><span>In our new monthly meeting Get Mobbed-Up On This we will be performing h<strong>ands on programming</strong>, Mob style. That doesn’t mean if you don’t code it right someone is going to take you out back and break your legs. It means everyone who shows up is going to <strong>actively</strong> participate in the coding.</span></p>
+<p><span>Bring your own laptop if you have one, some ideas, and your experience. Be ready to share, listen, and learn. Again <strong>everyone who comes will be expected to participate</strong>. All Skill levels are encouraged to come.</span></p>
+<p><span>The meeting will start at 6:30PM and go till we break – most likely around 9:00PM.</span></p>
+<p> <br />
+
+ <br />
+
+</p>
 }
 
 event[13] = Event
@@ -94,6 +220,15 @@ event[13] = Event
 	Title: Up On This - Mob Programming With the VNext MOB
 	Speaker: Get Mobbed
 	Time: 4/30/2014 6:30:00 PM
+	Description: <p><span>Learning is a process that involves many steps. In our normal monthly meetings we sit and we speak and we listen as we learn about new technologies many of us will never find time in our normal schedule to really dive into.</span></p>
+<p><span>In our new monthly meeting Get Mobbed-Up On This we will be performing h<strong>ands on programming</strong>, Mob style. That doesn’t mean if you don’t code it right someone is going to take you out back and break your legs. It means everyone who shows up is going to <strong>actively</strong> participate in the coding.</span></p>
+<p><span>Bring your own laptop if you have one, some ideas, and your experience. Be ready to share, listen, and learn. Again <strong>everyone who comes will be expected to participate</strong>. All Skill levels are encouraged to come.</span></p>
+<p><span>The meeting will start at 6:30PM and go till we break – most likely around 9:00PM.</span></p>
+<p> <br />
+
+ <br />
+
+</p>
 }
 
 event[14] = Event
@@ -101,6 +236,15 @@ event[14] = Event
 	Title: Up On This - Mob Programming With the VNext MOB
 	Speaker: Get Mobbed
 	Time: 5/28/2014 6:30:00 PM
+	Description: <p><span>Learning is a process that involves many steps. In our normal monthly meetings we sit and we speak and we listen as we learn about new technologies many of us will never find time in our normal schedule to really dive into.</span></p>
+<p><span>In our new monthly meeting Get Mobbed-Up On This we will be performing h<strong>ands on programming</strong>, Mob style. That doesn’t mean if you don’t code it right someone is going to take you out back and break your legs. It means everyone who shows up is going to <strong>actively</strong> participate in the coding.</span></p>
+<p><span>Bring your own laptop if you have one, some ideas, and your experience. Be ready to share, listen, and learn. Again <strong>everyone who comes will be expected to participate</strong>. All Skill levels are encouraged to come.</span></p>
+<p><span>The meeting will start at 6:30PM and go till we break – most likely around 9:00PM.</span></p>
+<p> <br />
+
+ <br />
+
+</p>
 }
 
 event[15] = Event
@@ -108,6 +252,15 @@ event[15] = Event
 	Title: Up On This - Mob Programming With the VNext MOB
 	Speaker: Get Mobbed
 	Time: 6/25/2014 6:30:00 PM
+	Description: <p><span>Learning is a process that involves many steps. In our normal monthly meetings we sit and we speak and we listen as we learn about new technologies many of us will never find time in our normal schedule to really dive into.</span></p>
+<p><span>In our new monthly meeting Get Mobbed-Up On This we will be performing h<strong>ands on programming</strong>, Mob style. That doesn’t mean if you don’t code it right someone is going to take you out back and break your legs. It means everyone who shows up is going to <strong>actively</strong> participate in the coding.</span></p>
+<p><span>Bring your own laptop if you have one, some ideas, and your experience. Be ready to share, listen, and learn. Again <strong>everyone who comes will be expected to participate</strong>. All Skill levels are encouraged to come.</span></p>
+<p><span>The meeting will start at 6:30PM and go till we break – most likely around 9:00PM.</span></p>
+<p> <br />
+
+ <br />
+
+</p>
 }
 
 event[16] = Event
@@ -115,5 +268,14 @@ event[16] = Event
 	Title: Up On This - Mob Programming With the VNext MOB
 	Speaker: Get Mobbed
 	Time: 7/30/2014 6:30:00 PM
+	Description: <p><span>Learning is a process that involves many steps. In our normal monthly meetings we sit and we speak and we listen as we learn about new technologies many of us will never find time in our normal schedule to really dive into.</span></p>
+<p><span>In our new monthly meeting Get Mobbed-Up On This we will be performing h<strong>ands on programming</strong>, Mob style. That doesn’t mean if you don’t code it right someone is going to take you out back and break your legs. It means everyone who shows up is going to <strong>actively</strong> participate in the coding.</span></p>
+<p><span>Bring your own laptop if you have one, some ideas, and your experience. Be ready to share, listen, and learn. Again <strong>everyone who comes will be expected to participate</strong>. All Skill levels are encouraged to come.</span></p>
+<p><span>The meeting will start at 6:30PM and go till we break – most likely around 9:00PM.</span></p>
+<p> <br />
+
+ <br />
+
+</p>
 }
 

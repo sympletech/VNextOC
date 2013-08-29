@@ -10,12 +10,16 @@ namespace VnextOC.MeetupApi
         {
             dynamic data = Newtonsoft.Json.JsonConvert.DeserializeObject(json);
             var events = (IEnumerable<dynamic>) data.results;
-            return events.Select(e => new Event().ParseDate((long)e.time, (long)e.utc_offset).ParseName((string)e.name));
-            
+            return events.Select(e => new Event()
+                                          .ParseDate((long) e.time, (long) e.utc_offset)
+                                          .ParseName((string) e.name)
+                                           .ParseDescription((string) e.description));
 
         }
 
- 
+
+
+
         public static Event ParseName(this Event e, string name)
         {
             string[] parts = name.Split('-');
@@ -29,5 +33,12 @@ namespace VnextOC.MeetupApi
 
             return e;
         }
+
+        public static Event ParseDescription( this Event e, string description)
+        {
+            e.Description = description.Trim();
+            return e;
+        }
+
     }
 }

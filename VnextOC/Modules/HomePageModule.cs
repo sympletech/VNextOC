@@ -10,7 +10,7 @@ namespace VnextOC.Modules
     {
         public HomePageModule()
         {
-            string json = File.ReadAllText(PathUtilities.GetAdjacentFile("data.txt"));
+            string json = Data.R.fakeData;
 
             Get["/"] = _ =>
                 {

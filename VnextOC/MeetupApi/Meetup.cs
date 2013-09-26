@@ -24,7 +24,7 @@ namespace VnextOC.MeetupApi
 
         public static IEnumerable<MeetupEvent> ParseEvent(string json)
         {
-            var apiResponse = JsonConvert.DeserializeObject<Rootobject>(json);
+            var apiResponse = JsonConvert.DeserializeObject<MeetupApiResult>(json);
 
             var events = apiResponse.results
                 .Select(e => new MeetupEvent()

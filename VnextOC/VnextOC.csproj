@@ -109,7 +109,6 @@
     <None Include="Content\scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Content\scripts\jquery-1.9.1.js" />
     <Content Include="Content\scripts\jquery-1.9.1.min.js" />
-    <Content Include="Data\fakeData.txt" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
@@ -127,11 +126,6 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Data\R.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>R.resx</DependentUpon>
-    </Compile>
     <Compile Include="MeetupApi\Event.cs" />
     <Compile Include="MeetupApi\Group.cs" />
     <Compile Include="MeetupApi\MeetupEvent.cs" />
@@ -139,7 +133,9 @@
     <Compile Include="MeetupApi\MeetupEventParser.cs" />
     <Compile Include="MeetupApi\Meta.cs" />
     <Compile Include="MeetupApi\Result.cs" />
-    <Compile Include="MeetupApi\Rootobject.cs" />
+    <Compile Include="MeetupApi\MeetupApiResult.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="MeetupApi\Venue.cs" />
     <Compile Include="Modules\HomePageModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -153,12 +149,6 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Data\R.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>R.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

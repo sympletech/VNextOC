@@ -1,7 +1,4 @@
-﻿using System;
-using System.IO;
-using System.Linq;
-using ApprovalUtilities.Utilities;
+﻿using System.Linq;
 using VnextOC.MeetupApi;
 
 namespace VnextOC.Modules
@@ -10,14 +7,11 @@ namespace VnextOC.Modules
     {
         public HomePageModule()
         {
-            string json = Data.R.fakeData;
-
             Get["/"] = _ =>
                 {
                     var e = Meetup.ParseEvent();
                     return View["HomePage", e.First()];
                 };
-
         }
     }
 }

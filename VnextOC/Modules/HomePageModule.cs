@@ -14,11 +14,9 @@ namespace VnextOC.Modules
 
             Get["/"] = _ =>
                 {
-                    var e = Meetup.ParseEvent(json);
+                    var e = Meetup.ParseEvent();
                     return View["HomePage", e.First()];
                 };
-           
-           
 
         }
     }

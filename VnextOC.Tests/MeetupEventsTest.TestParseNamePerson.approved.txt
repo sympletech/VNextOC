@@ -1,4 +1,4 @@
-﻿Event
+﻿MeetupEvent
 {
 	Title:  Architecting Applications for Multiple-User-Interfaces
 	Speaker: Paul D. Sheriff 

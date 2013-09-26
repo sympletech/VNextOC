@@ -1,4 +1,5 @@
-﻿using ApprovalTests.Asp;
+﻿using System.Collections.Generic;
+using ApprovalTests.Asp;
 using ApprovalTests.Reporters;
 using ApprovalUtilities.Utilities;
 using System.IO;
@@ -18,11 +19,10 @@ namespace VnextOC.Tests
         public void TestJsonEventTransformation()
         {
             var json = File.ReadAllText(PathUtilities.GetAdjacentFile("SampleEventData.json"));
-               
 
-            var events = Meetup.ParseEvent(json);
-            
-            Approvals.VerifyAll(events, "event");
+            IEnumerable<MeetupEvent> meetupEvents = Meetup.ParseEvent(json);
+
+            Approvals.VerifyAll(meetupEvents, "event");
         }
 
         [Test]
@@ -30,7 +30,7 @@ namespace VnextOC.Tests
         {
             var name = "Paul D. Sheriff - Architecting Applications for Multiple-User-Interfaces";
 
-            var e = new Event().ParseName(name);
+            var e = new MeetupEvent().ParseName(name);
 
             Approvals.Verify(e);
         }

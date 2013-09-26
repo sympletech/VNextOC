@@ -1,4 +1,4 @@
-﻿event[0] = Event
+﻿event[0] = MeetupEvent
 {
 	Title: Up On This - Mob Programming With the VNext MOB
 	Speaker: Get Mobbed
@@ -24,7 +24,7 @@
 
 }
 
-event[1] = Event
+event[1] = MeetupEvent
 {
 	Title:  My Experience with the Booted, The Borg and Default Culture
 	Speaker: Jon Jorgensen 
@@ -46,7 +46,7 @@ event[1] = Event
 
 }
 
-event[2] = Event
+event[2] = MeetupEvent
 {
 	Title: Up On This
 	Speaker: Get Mobbed
@@ -69,7 +69,7 @@ event[2] = Event
 
 }
 
-event[3] = Event
+event[3] = MeetupEvent
 {
 	Title:  Architecting Applications for Multiple User Interfaces
 	Speaker: Paul D. Sheriff 
@@ -127,7 +127,7 @@ PSheriff@pdsa.com. Check out Paul's new code generator 'Haystack' at <br />
 
 }
 
-event[4] = Event
+event[4] = MeetupEvent
 {
 	Title: Up On This - Mob Programming With the VNext MOB
 	Speaker: Get Mobbed
@@ -153,7 +153,7 @@ event[4] = Event
 
 }
 
-event[5] = Event
+event[5] = MeetupEvent
 {
 	Title: 
 	Speaker: Oscar Azmitia from Xamarin will be presenting the capabilities of Xamarin
@@ -171,7 +171,7 @@ event[5] = Event
 
 }
 
-event[6] = Event
+event[6] = MeetupEvent
 {
 	Title: Up On This - Mob Programming With the VNext MOB
 	Speaker: Get Mobbed
@@ -197,7 +197,7 @@ event[6] = Event
 
 }
 
-event[7] = Event
+event[7] = MeetupEvent
 {
 	Title:  Intro to the Single Page App
 	Speaker: Anand Raja 
@@ -215,7 +215,7 @@ event[7] = Event
 
 }
 
-event[8] = Event
+event[8] = MeetupEvent
 {
 	Title: Up On This - Mob Programming With the VNext MOB
 	Speaker: Get Mobbed
@@ -241,7 +241,7 @@ event[8] = Event
 
 }
 
-event[9] = Event
+event[9] = MeetupEvent
 {
 	Title: Up On This - Mob Programming With the VNext MOB
 	Speaker: Get Mobbed
@@ -267,7 +267,7 @@ event[9] = Event
 
 }
 
-event[10] = Event
+event[10] = MeetupEvent
 {
 	Title: Up On This - Mob Programming With the VNext MOB
 	Speaker: Get Mobbed
@@ -293,7 +293,7 @@ event[10] = Event
 
 }
 
-event[11] = Event
+event[11] = MeetupEvent
 {
 	Title: Up On This - Mob Programming With the VNext MOB
 	Speaker: Get Mobbed
@@ -319,7 +319,7 @@ event[11] = Event
 
 }
 
-event[12] = Event
+event[12] = MeetupEvent
 {
 	Title: Up On This - Mob Programming With the VNext MOB
 	Speaker: Get Mobbed
@@ -345,7 +345,7 @@ event[12] = Event
 
 }
 
-event[13] = Event
+event[13] = MeetupEvent
 {
 	Title: Up On This - Mob Programming With the VNext MOB
 	Speaker: Get Mobbed
@@ -371,7 +371,7 @@ event[13] = Event
 
 }
 
-event[14] = Event
+event[14] = MeetupEvent
 {
 	Title: Up On This - Mob Programming With the VNext MOB
 	Speaker: Get Mobbed
@@ -397,7 +397,7 @@ event[14] = Event
 
 }
 
-event[15] = Event
+event[15] = MeetupEvent
 {
 	Title: Up On This - Mob Programming With the VNext MOB
 	Speaker: Get Mobbed
@@ -423,7 +423,7 @@ event[15] = Event
 
 }
 
-event[16] = Event
+event[16] = MeetupEvent
 {
 	Title: Up On This - Mob Programming With the VNext MOB
 	Speaker: Get Mobbed

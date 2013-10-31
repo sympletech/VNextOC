@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html ng-app>
+<head>
+    <base href="/content/" />
+    <link href="bootstrap.css" rel="stylesheet" />
+    <link href="bootstrap-responsive.css" rel="stylesheet" />
+    <script src="scripts/jquery-1.9.1.min.js"> </script>
+    <script src="scripts/bootstrap.min.js"> </script>
+    <script src="scripts/angular.js"></script>
+    <script type="text/javascript">
+        function meetupApiCtrl($scope, $http) {
+            $scope.ApiUrl = '/Events';
+            $scope.events = [];
+      
+            $scope.loadevents = function() {
+                $http.get($scope.ApiUrl).success(function(data) {
+                    $scope.events = data;
+                });
+            };
+            $scope.loadevents();
+        };
+    </script>
+</head>
+<body ng-controller="meetupApiCtrl">
+    <div style="margin: auto; overflow: hidden;">
+        <div class="row-fluid">
+            <div class="span12">
+                <img src="images/logo.jpg" class="span12" />
+            </div>
+        </div>
+        <div class="row-fluid">
+            <div class="span12">
+                <button class="btn btn-large span12" onclick="window.open('http://www.meetup.com/vNext-OrangeCounty/')">Meetup</button>
+            </div>
+        </div>
+        <div class="well" ng-repeat="event in events">
+            <div class="row-fluid">
+                <div class="span12">
+                    <h3>{{event.Title}}</h3>
+                    <h4>{{event.Speaker}}</h4>
+                    <div class="event_time">Date: {{event.TimeFormatted}}</div>
+                </div>
+            </div>
+        </div>
+        <div class="well">
+            <h2>Location:</h2>
+            <div class="event_host">
+                <h4>{{events[0].Address.Name}}</h4>
+            </div>
+            <div class="event_address">{{events[0].Address.Street}}, {{events[0].Address.City}}, {{events[0].Address.State}} {{events[0].Address.ZipCode}}</div>
+        </div>
+    </div>
+</body>
+</html>

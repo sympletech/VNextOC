@@ -1,4 +1,5 @@
 ﻿using System.Linq;
+using Nancy;
 using VnextOC.MeetupApi;
 
 namespace VnextOC.Modules
@@ -7,11 +8,13 @@ namespace VnextOC.Modules
     {
         public HomePageModule()
         {
-            Get["/"] = _ =>
-                {
-                    var e = Meetup.ParseEvent();
-                    return View["HomePage", e.First()];
-                };
+            Get["/"] = _ => View["HomePage"];
+
+            Get["/Events"] = _ =>
+            {
+                var e = Meetup.ParseEvent();
+                return Response.AsJson(e);
+            };
         }
     }
 }

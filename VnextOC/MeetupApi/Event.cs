@@ -10,18 +10,15 @@ namespace VnextOC.MeetupApi
         {
             return this.WritePropertiesToString();
         }
-        
-
 
         public string Speaker { get; set; }
 
-        public DateTime Time { get; set; }
+        public string Time { get; set; }
 
         public string Description  { get; set; }
 
         public string EventUrl { get; set; }
 
         public Address Address { get; set; }
-
     }
 }

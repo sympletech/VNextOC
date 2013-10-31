@@ -95,6 +95,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\app\HomePageCtrl.js" />
+    <Content Include="Content\css\site.css" />
+    <Content Include="Content\images\background.png" />
     <Content Include="Content\scripts\jquery-1.9.1.min.map" />
     <Content Include="Content\bootstrap-responsive.css" />
     <Content Include="Content\bootstrap-responsive.min.css" />
@@ -439,7 +442,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
-    <Content Include="Views\HomePage.cshtml" />
+    <Content Include="Views\HomePage.html" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

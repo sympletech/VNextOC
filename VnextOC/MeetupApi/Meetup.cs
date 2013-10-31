@@ -69,6 +69,10 @@ namespace VnextOC.MeetupApi
 
         public static MeetupEvent ParseAddress(this MeetupEvent e, dynamic venue)
         {
+            if (venue == null)
+            {
+                return e;
+            }
             e.Address = new Address {
                 Name = venue.name,
                 Street = venue.address_1,

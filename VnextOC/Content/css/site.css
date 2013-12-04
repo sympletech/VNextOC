@@ -37,37 +37,38 @@ nav #calendar:hover {
     background-position: 0px -150px;
 }
 
-nav #members {
+nav #library {
     background-position: -200px 0px;
 }
-nav #members:hover {
+nav #library:hover {
     background-position: -200px -150px;
 }
 
-nav #community {
+nav #members {
     background-position: -400px 0px;
 }
-nav #community:hover {
+nav #members:hover {
     background-position: -400px -150px;
 }
 
-nav #job-buzz {
+nav #community {
     background-position: -600px 0px;
+}
+nav #community:hover {
+    background-position: -600px -150px;
+}
+
+nav #job-buzz {
+    background-position: -800px 0px;
 }
 
 nav #job-buzz:hover {
-    background-position: -600px -150px;
-}
-nav #sponsors {
-    background-position: -800px 0px;
-}
-nav #sponsors:hover {
     background-position: -800px -150px;
 }
-
-nav #library {
+nav #sponsors {
     background-position: -1000px 0px;
 }
-nav #library:hover {
+nav #sponsors:hover {
     background-position: -1000px -150px;
 }
+

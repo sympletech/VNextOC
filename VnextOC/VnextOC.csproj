@@ -95,6 +95,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\app\app.js" />
     <Content Include="Content\app\HomePageCtrl.js" />
     <Content Include="Content\app\navigation.js" />
     <Content Include="Content\css\site.css" />
@@ -424,6 +425,7 @@
     <Content Include="Content\scripts\jquery.watch.js" />
     <Content Include="Content\scripts\museutils.js" />
     <Content Include="Content\scripts\pie.js" />
+    <Content Include="Views\members.html" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>

@@ -1,4 +1,6 @@
-﻿function HomePageCtrl($scope, $http) {
+﻿angular.bootstrap($("#calendarWrapper"), ['vNext']);
+
+function HomePageCtrl($scope, $http) {
     $scope.ApiUrl = '/Events';
     $scope.events = [];
       

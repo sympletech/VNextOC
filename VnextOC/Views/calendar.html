@@ -1,32 +1,17 @@
 ﻿<div id="calendarWrapper" ng-controller="HomePageCtrl">
-    <div style="margin: auto; overflow: hidden;" ng-show="events.length > 0" class="container">
-        <div class="row-fluid">
-            <div class="span12" style="margin-top:200px">
-
-            </div>
+    <div ng-repeat="event in events">
+        <div >
+            <h3>{{event.Title}}</h3>
+            <h4>{{event.Speaker}}</h4>
+            <div class="event_time">Date: {{event.TimeFormatted}}</div>
         </div>
-        <div class="row-fluid">
-            <div class="span12">
-                <button class="btn btn-large span12" onclick="window.open('http://www.meetup.com/vNext-OrangeCounty/')">Meetup</button>
-            </div>
+    </div>
+    <div >
+        <h2>Location:</h2>
+        <div class="event_host">
+            <h4>{{location.Name}}</h4>
         </div>
-
-        <div class="well" ng-repeat="event in events">
-            <div class="row-fluid">
-                <div class="span12">
-                    <h3>{{event.Title}}</h3>
-                    <h4>{{event.Speaker}}</h4>
-                    <div class="event_time">Date: {{event.TimeFormatted}}</div>
-                </div>
-            </div>
-        </div>
-        <div class="well">
-            <h2>Location:</h2>
-            <div class="event_host">
-                <h4>{{location.Name}}</h4>
-            </div>
-            <div class="event_address">{{location.Street}}, {{location.City}}, {{location.State}} {{location.ZipCode}}</div>
-        </div>
+        <div class="event_address">{{location.Street}}, {{location.City}}, {{location.State}} {{location.ZipCode}}</div>
     </div>
 </div>
 

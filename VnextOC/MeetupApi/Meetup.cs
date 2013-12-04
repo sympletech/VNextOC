@@ -9,15 +9,15 @@ namespace VnextOC.MeetupApi
 {
     public static class Meetup
     {
-        public static IEnumerable<MeetupEvent> ParseEvent()
+        public static IEnumerable<MeetupEvent> ParseEvent(int maxCount = 3)
         {
             //http://api.meetup.com/2/events?group_id=2983232&key=0393c247c5f1443107c312142206710
             var client = new RestClient("http://api.meetup.com/2/");
 
             var request = new RestRequest("events", Method.GET);
             request.AddParameter("group_id", "2983232");
+            request.AddParameter("page", maxCount);
             request.AddParameter("key", "0393c247c5f1443107c312142206710");
-
             var response = client.Execute(request);
             return ParseEvent(response.Content);
         }

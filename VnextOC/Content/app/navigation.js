@@ -5,4 +5,7 @@
             $("#content").html(data);
         });
     });
+    $.get("/calendar", function (data) {
+        $("#content").html(data);
+    });
 })

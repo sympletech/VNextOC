@@ -3,7 +3,9 @@
     border: 0;
     margin: 0;
 }
-
+#wrapper {
+    min-width: 1200px;
+}
 header {
     background: url("../images/background.png") no-repeat #e7e8e8;
     height: 20em;
@@ -17,11 +19,55 @@ header img {
 }
 
 nav ul {
-    
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 nav li {
     float: left;
-    width: 15%;
-    height: 2em;
-    background: blue;
+    width: 200px;
+    height: 150px;
+    text-indent: -9999px;
+    background: url(../images/menu-sprite.png) #365a76;
+}
+
+nav li#calendar {
+}
+nav #calendar:hover {
+    background-position: 0px -150px;
+}
+
+nav #members {
+    background-position: -200px 0px;
+}
+nav #members:hover {
+    background-position: -200px -150px;
+}
+
+nav #community {
+    background-position: -400px 0px;
+}
+nav #community:hover {
+    background-position: -400px -150px;
+}
+
+nav #job-buzz {
+    background-position: -600px 0px;
+}
+
+nav #job-buzz:hover {
+    background-position: -600px -150px;
+}
+nav #sponsors {
+    background-position: -800px 0px;
+}
+nav #sponsors:hover {
+    background-position: -800px -150px;
+}
+
+nav #library {
+    background-position: -1000px 0px;
+}
+nav #library:hover {
+    background-position: -1000px -150px;
 }

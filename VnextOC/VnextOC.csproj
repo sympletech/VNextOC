@@ -96,8 +96,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\app\HomePageCtrl.js" />
+    <Content Include="Content\app\navigation.js" />
     <Content Include="Content\css\site.css" />
+    <Content Include="Views\calendar.html" />
     <Content Include="Content\images\background.png" />
+    <Content Include="Content\images\menu-sprite.png" />
     <Content Include="Content\scripts\jquery-1.9.1.min.map" />
     <Content Include="Content\bootstrap-responsive.css" />
     <Content Include="Content\bootstrap-responsive.min.css" />

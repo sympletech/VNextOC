@@ -1,12 +1,18 @@
-﻿<div id="calendarWrapper" ng-controller="HomePageCtrl">
-    <div ng-repeat="event in events">
-        <div >
-            <h3>{{event.Title}}</h3>
-            <h4>{{event.Speaker}}</h4>
-            <div class="event_time">Date: {{event.TimeFormatted}}</div>
+﻿
+
+<div id="calendarWrapper" ng-controller="HomePageCtrl">
+    <div class="calendar-event" ng-repeat="event in events">
+        <div class="day-number">
+            <b>{{event.Day}}</b>
         </div>
+        <h3>{{event.Speaker}}</h3>
+        <div class="event-details-wrapper">
+            <h4>{{event.Title}}</h4>
+            <div ng-bind-html-unsafe="event.Description" class="description"></div>
+        </div>
+        <button class="details-button">Details</button>
     </div>
-    <div >
+    <div class="location">
         <h2>Location:</h2>
         <div class="event_host">
             <h4>{{location.Name}}</h4>

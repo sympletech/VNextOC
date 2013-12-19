@@ -71,4 +71,64 @@ nav #sponsors {
 nav #sponsors:hover {
     background-position: -1000px -150px;
 }
+#calendarWrapper .calendar-event, .location {
+    width: 30%;
+    height: 275px;
+    float: left;
+    border: #365a76 2px solid;
+    background-color: #f1f1f1;
+    margin: 0.5%;
+    padding: 1%;
+    position: relative;
+    min-width: 275px;
+}
 
+ .location {
+    width: 96.5%;
+     height: 115.5px;
+}
+
+#calendarWrapper .calendar-event .day-number {
+    background-color: #365A76;
+    color: #F1F1F1;
+    display: block;
+    font-size: 1.75em;
+    padding: 20px;
+    text-align: center;
+    width: 50px;
+     float: left;
+}
+
+
+#calendarWrapper .calendar-event > h3 {
+    float: left;
+    color: #365A76;
+    font-size: 1.5em;
+    font-weight: normal;
+    margin-left: 10px;
+}
+#calendarWrapper .event-details-wrapper {
+    clear: both;
+    padding-top: 10px;
+}
+#calendarWrapper .description {
+    height: 75px;
+    overflow: hidden;
+
+}
+#calendarWrapper .details-button {
+       background: none repeat scroll 0 0 #365A76;
+    border: medium none;
+    bottom: 10px;
+    color: #F1F1F1;
+    float: right;
+    padding: 10px;
+    position: absolute;
+    right: 10px;
+    width: 125px;
+}
+#calendarWrapper .calendar-event h4 {
+    color: #365A76;
+    font-size: 1.25em;
+    height: 50px;
+}

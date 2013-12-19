@@ -15,6 +15,8 @@ namespace VnextOC.MeetupApi
 
         public DateTime Time { get; set; }
 
+        public string Day { get { return Time.Day.ToString(); } }
+
         public string TimeFormatted { get { return Time.ToString("ddd, MMMM dd, htt");  } }
 
         public string Description  { get; set; }

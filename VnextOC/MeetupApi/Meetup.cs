@@ -14,10 +14,12 @@ namespace VnextOC.MeetupApi
             //http://api.meetup.com/2/events?group_id=2983232&key=0393c247c5f1443107c312142206710
             var client = new RestClient("http://api.meetup.com/2/");
 
+            string MeetupAPIKey = GetRandomAPIKeyString();
+
             var request = new RestRequest("events", Method.GET);
             request.AddParameter("group_id", "2983232");
             request.AddParameter("page", maxCount);
-            request.AddParameter("key", "0393c247c5f1443107c312142206710");
+            request.AddParameter("key", MeetupAPIKey);
             var response = client.Execute(request);
             return ParseEvent(response.Content);
         }
@@ -81,6 +83,24 @@ namespace VnextOC.MeetupApi
                 ZipCode = venue.zip,
             };
             return e;
+        }
+
+
+
+        public static String GetRandomAPIKeyString()
+        {
+            String strKey = "";
+            List<String> KeyString = new List<string>();
+            for (int i = 0; i < 5; i++)
+            {               //TODO: We NEED more Keys!
+                KeyString.Add("0393c247c5f1443107c312142206710");
+                KeyString.Add("177249507444921606913487d434875");
+            }
+            Random rnd = new Random();
+            int OneToTen = rnd.Next(0, 10); // creates a number between 0 and 9
+            strKey = KeyString[OneToTen];
+
+            return strKey;
         }
 
     }
